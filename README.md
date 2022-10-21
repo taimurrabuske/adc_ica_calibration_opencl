@@ -1,13 +1,16 @@
-# Table of Contents
-1. [Introduction](#introduction)
-2. [Instructions](#instructions)
-
-
-
 # adc_calibration_opencl
 Simulating ADC background calibration algorithms in OpenCL
 
-# Introduction
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Instructions](#instructions)
+3. [Results](#results)
+
+
+
+
+
+## Introduction
 
 This repository contains code to simulate calibration algorithms based on the Independent Component Analysis (ICA) proposed in professor Yun Chiu's lab at UT Dallas.
 https://personal.utdallas.edu/~chiu.yun/index.html
@@ -24,7 +27,9 @@ After cloning the repository, install the Python required packages, e.g. `pip in
 
 Notice that the effective number of bits (ENOB) is slowly increasing as the simulation runs. The simulation parameters can be changed inside *simulate.py*. You can also run the *plot.sh* script that is contained in the same folder to follow the  results as the simulation progresses. Notice that *gnuplot* is required for this to work.
 
-
+## Results
+### SAR ADC results
 ![amplifier](https://raw.githubusercontent.com/taimurrabuske/adc_calibration_opencl/main/doc/sar_ica_plot.png)
 
+### Amplifier results
 ![sar_ica](https://raw.githubusercontent.com/taimurrabuske/adc_calibration_opencl/main/doc/amplifier_plot.png)
