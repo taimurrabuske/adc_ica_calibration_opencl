@@ -1,4 +1,4 @@
-# adc_calibration_opencl
+# adc_ica_calibration_opencl
 Simulating ADC background calibration algorithms in OpenCL
 
 ## Table of Contents
