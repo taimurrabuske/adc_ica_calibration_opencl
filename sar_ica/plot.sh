@@ -1,0 +1,1 @@
+gnuplot autoplot.gp
