@@ -23,6 +23,7 @@ The repository contains 2 directories, namely **amplifier** and **sar_ica** that
 ## Instructions
 
 After cloning the repository, install the Python required packages, e.g. `pip install -f requirements.txt`. Also make sure you have all the OpenCL libraries and the ICD files for your platform installed in your system. Then go to the simulation directory (amplifier or sar_ica) and run the *simulate.py* script. If all goes well, you should see something like this
+
 ![running](https://raw.githubusercontent.com/taimurrabuske/adc_calibration_opencl/main/doc/running.png)
 
 Notice that the effective number of bits (ENOB) is slowly increasing as the simulation runs. The simulation parameters can be changed inside *simulate.py*. You can also run the *plot.sh* script that is contained in the same folder to follow the  results as the simulation progresses. Notice that *gnuplot* is required for this to work.
